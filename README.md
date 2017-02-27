@@ -55,6 +55,6 @@ sudo pppd call MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
 Note:
 
 1. It does not respond to CTRL+Z or similar... so I kill it from another Terminal window.
-2. It does not modify your default routes, so you can still surf the web amd similar
+2. It does not modify your default routes, so you can still surf the web and similar.
 
 Regards.
