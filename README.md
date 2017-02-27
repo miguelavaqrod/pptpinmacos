@@ -43,7 +43,7 @@ ipparam gwvpn
 
 ```
 
-3. Save and repeat for every server you need to connect to.
+Save and repeat for every server you need to connect to.
 
 To establish a connection just:
 
