@@ -1,5 +1,5 @@
 # pptpinosx
-A Sierra+ command line alternative for connecting to legacy systems using PPTP
+An OSX Sierra+ command line alternative for connecting to legacy systems using PPTP
 
 First of all, I have to say that this method is not from my own. I found it time ago (googling) and I think it is a good idea to save it here. If the owner has something to tell me, just inform me.
 
