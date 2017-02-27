@@ -44,6 +44,10 @@ ipparam gwvpn
 ```
 Save and repeat for every server you need to connect to.
 
+I chmod the files to keep them secure...
+```
+sudo chmod 640 MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
+```
 To establish a connection just:
 ```
 sudo pppd call MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
