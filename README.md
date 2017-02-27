@@ -5,6 +5,8 @@ First of all, I have to say that this method is not from my own. I found it time
 
 I know PPTP is unsecure, but please Apple, let me decide what to do with my computer and where to connect to...
 
+---
+
 Method:
 
 1. sudo vi /etc/ppp/peers/MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
@@ -36,7 +38,7 @@ nodetach
 ms-dns 8.8.8.8
 # used in ip-up script
 ipparam gwvpn
-
+```
 3. Save and repeat for every server you need to connect to.
 
 To establish a connection just:
