@@ -45,9 +45,9 @@ ipparam gwvpn
 Save and repeat for every server you need to connect to.
 
 To establish a connection just:
-
+```
 sudo pppd call MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
-
+```
 Note:
 
 It does not respond to CTRL+Z or similar... so I kill it from another Terminal window.
