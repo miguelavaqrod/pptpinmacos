@@ -11,7 +11,7 @@ Method:
 
 First we create our settings file
 ```
-sudo vi /etc/ppp/peers/MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
+sudo vi /etc/ppp/peers/MY_PPTP_DOMAIN_YOU_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
 ```
 Paste the following that I think suits all needs:
 ```
@@ -50,7 +50,7 @@ sudo chmod 640 /etc/ppp/peers/MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NA
 ```
 To establish a connection just:
 ```
-sudo pppd call MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
+sudo pppd call MY_PPTP_DOMAIN_YOU_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
 ```
 Note:
 
