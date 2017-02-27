@@ -12,7 +12,7 @@ Method:
 1. First we create our settings file
 ```
 sudo vi /etc/ppp/peers/MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
-
+```
 2. Paste the following that I think suits all needs:
 ```
 plugin PPTP.ppp
