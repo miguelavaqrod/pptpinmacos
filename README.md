@@ -52,7 +52,7 @@ To establish a connection just:
 ```
 sudo pppd call PPTP_DOMAIN_YOU_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
 ```
-Note:
+Notes:
 
 1. It does not respond to CTRL+Z or similar... so I kill it from another Terminal window.
 2. It does not modify your default routes, so you can still surf the web and similar.
