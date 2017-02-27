@@ -56,5 +56,6 @@ Note:
 
 1. It does not respond to CTRL+Z or similar... so I kill it from another Terminal window.
 2. It does not modify your default routes, so you can still surf the web and similar.
+3. Thanks Apple for not deleting the PPPD daemon!!!
 
 Regards.
