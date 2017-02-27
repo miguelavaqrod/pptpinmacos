@@ -8,12 +8,12 @@ I know PPTP is unsecure, but please Apple, let me decide what to do with my comp
 ---
 
 Method:
+1. First we create our settings file
+``
+sudo vi /etc/ppp/peers/MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
 
-1. sudo vi /etc/ppp/peers/MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
 2. Paste the following that I think suits all needs:
-
 ```
-
 plugin PPTP.ppp
 noauth
 # logfile /tmp/ppp.log
@@ -40,11 +40,9 @@ nodetach
 ms-dns 8.8.8.8
 # used in ip-up script
 ipparam gwvpn
-
 ```
-
-Save and repeat for every server you need to connect to.
-
+3. Save and repeat for every server you need to connect to.
+---
 To establish a connection just:
 
 sudo pppd call MY_PPTP_DOMAIN_I_WANT_TO_CONNECT_TO_OR_WHATEVER_NAME_YOU_CHOOSE
